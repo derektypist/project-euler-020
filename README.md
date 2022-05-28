@@ -39,3 +39,12 @@ As a user, I expect the function `sumFactorialDigits(100)` to return 648.
 **Information Architecture**
 
 The function `sumFactorialDigits(n)` returns a number, where `n` is a number between 0 and 500.
+
+## Features
+
+Allows the user to enter a number as well as getting the sum of the digits of the number factorial.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.0-Beta1 and Google Fonts.  In JavaScript, `BigInt` is used.
+
