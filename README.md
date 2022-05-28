@@ -11,7 +11,18 @@ Information at [Project Euler 020](https://projecteuler.net/problem=20)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 0 and 500 and click on the Submit Button.  You will see the number entered as well as the sum of the digits in the number factorial, unless you have made an invalid input.  For example, if you entered 10, you would expect to get 27.  Click on the Reset Button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Entering text other than a number
+- Not enter anything in the input field
+- Entering a number less than 0 or greater than 500
+- Entering a number, but it is not an integer
 
 As a user, I expect the function `sumFactorialDigits(10)` to return a number.
 
@@ -27,4 +38,4 @@ As a user, I expect the function `sumFactorialDigits(100)` to return 648.
 
 **Information Architecture**
 
-The function `sumFactorialDigits(n)` returns a number, where `n` is a number.
+The function `sumFactorialDigits(n)` returns a number, where `n` is a number between 0 and 500.
