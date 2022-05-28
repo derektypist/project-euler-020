@@ -25,3 +25,6 @@ As a user, I expect the function `sumFactorialDigits(75)` to return 432.
 
 As a user, I expect the function `sumFactorialDigits(100)` to return 648.
 
+**Information Architecture**
+
+The function `sumFactorialDigits(n)` returns a number, where `n` is a number.
